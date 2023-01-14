@@ -1,0 +1,23 @@
+header.appHeader {
+	width: 100%;
+}
+
+header.appHeader nav {
+	background-color: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 3.75rem;
+}
+
+header.appHeader .logo {
+	font-size: 1.875rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+header.appHeader .favorites {
+	background-color: #fff;
+	color: #000000;
+	padding: 5px 14px;
+}

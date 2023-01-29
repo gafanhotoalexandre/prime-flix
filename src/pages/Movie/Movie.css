@@ -1,0 +1,56 @@
+.movie-info {
+	margin-top: 1.125rem;
+	display: flex;
+	flex-direction: column;
+	/* gap: .875rem; */
+	max-width: 50rem;
+	padding: 0 0.5rem;
+}
+
+.movie-info h1 {
+	margin: .875rem 0;
+}
+
+.movie-info img {
+	border-radius: .875rem;
+	max-width: 100%;
+	width: 50rem;
+	max-height: 21.25rem;
+	object-fit: cover;
+}
+
+.movie-info h3 {
+	margin-top: .875rem;
+}
+
+.movie-info span {
+	margin: .5rem 0;
+}
+
+/* Buttons */
+.area-buttons button {
+	margin-right: .75rem;
+	margin-top: .875rem;
+	margin-left: 0;
+
+	font-size: 1.25rem;
+	border: 0;
+	outline: none;
+	padding: .75rem;
+	border-radius: .25rem;
+	transition: all ease .2s;
+}
+
+.area-buttons button:hover {
+	background-color: brown;
+	color: #fff;
+}
+
+.area-buttons a {
+	color: #000;
+	transition: all ease .2s;
+}
+.area-buttons a:hover {
+	color: #fff;
+}
+

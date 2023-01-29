@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { api } from "../../services/api";
-import { Movie } from "../../types/Movie";
+import { MovieType } from "../../types/Movie";
 
 import './Home.css';
 
 export function Home() {
-	const [listMoviesShowing, setListMoviesShowing] = useState<Movie[]>([]);
+	const [listMoviesShowing, setListMoviesShowing] = useState<MovieType[]>([]);
 	const [isLoadingMovies, setIsLoadingMovies] = useState(true);
 
 	useEffect(() => {

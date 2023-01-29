@@ -43,4 +43,11 @@
 
 	border-bottom-left-radius: 0.5rem;
 	border-bottom-right-radius: 0.5rem;
+
+	transition: all ease .2s;
+}
+
+.movie-list a:hover {
+	color: #fff;
+	opacity: .8;
 }

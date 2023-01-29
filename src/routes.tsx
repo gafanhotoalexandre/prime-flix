@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { Favorites } from './pages/Favorites';
 
 import { Home } from './pages/Home';
 import { Movie } from './pages/Movie';
@@ -9,6 +10,7 @@ export function AppRoutes() {
 		<Routes>
 			<Route path="/" element={<Home />} />
 			<Route path="/filme/:id" element={<Movie />} />
+			<Route path="/favoritos" element={<Favorites />} />
 
 			<Route path="*" element={<NotFound />} />
 		</Routes>

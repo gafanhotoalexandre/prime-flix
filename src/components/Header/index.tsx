@@ -7,7 +7,7 @@ export function Header() {
 		<header className="appHeader">
 			<nav>
 				<Link className="logo" to="/">PrimeFlix</Link>
-				<Link className="favorites" to="/favorites">Meus Filmes</Link>
+				<Link className="favorites" to="/favoritos">Meus Filmes</Link>
 			</nav>
 		</header>
 	)

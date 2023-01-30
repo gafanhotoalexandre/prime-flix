@@ -1,0 +1,35 @@
+.my-movies {
+	margin-top: 1.5rem;
+}
+
+.my-movies h1 {
+	margin-bottom: .875rem;
+}
+
+.my-movies span {
+	font-size: 1.125rem;
+}
+
+.my-movies ul {
+	width: 45rem;
+	/* max-width: 45rem; */
+}
+
+.my-movies ul li {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: .875rem;
+}
+
+.my-movies li div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .875rem;
+}
+
+.my-movies a {
+	color: #116feb;
+}

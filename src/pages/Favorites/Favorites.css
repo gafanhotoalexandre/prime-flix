@@ -33,3 +33,19 @@
 .my-movies a {
 	color: #116feb;
 }
+
+.my-movies button {
+	background-color: transparent;
+	border: 1px solid brown;
+	border-radius: .25rem;
+	color: brown;
+	transition: all ease .2s;
+
+	padding: .313rem .875rem;
+
+}
+
+.my-movies button:hover {
+	background-color: brown;
+	color: #fff;
+}

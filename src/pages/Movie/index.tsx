@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { toast } from 'react-toastify'
 
 import { api } from "../../services/api";
 import { MovieType } from "../../types/Movie";
@@ -45,14 +46,14 @@ export function Movie() {
 		const hasMovie = savedMovies.some(savedMovie => savedMovie.id === movie?.id);
 
 		if (hasMovie) {
-			alert('ESTE FILME JÁ FOI SALVO');
+			toast.warn('Este filme já está na sua lista.');
 			return;
 		}
 
 		savedMovies.push(movie!);
 		localStorage.setItem('@primeFlix', JSON.stringify(savedMovies));
 
-		alert('FILME SALVO COM SUCESSO!');
+		toast.success('Filme salvo com sucesso!');
 	}
 
 	if (loadingMovie) {
